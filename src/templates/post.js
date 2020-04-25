@@ -48,7 +48,7 @@ export default class PostTemplate extends Component {
               <h1>{post.title}</h1>
               <div className="post-meta">
                 <Link to="/me">
-                  <img src={tania} className="avatar-small" alt="Tania" />
+                  <img src={tania} className="avatar-small" alt="Dimas" />
                 </Link>
                 <time className="date">{date}</time>/
                 <a

@@ -1,9 +1,9 @@
 {
-  "name": "taniarascia.com",
-  "description": "Personal website running on Gatsby, React, and Node.js.",
+  "name": "dimas.club",
+  "description": "Catatan Seorang Dimas",
   "version": "1.0.1",
-  "author": "Tania Rascia <hello@taniarascia.com>",
-  "repository": "git@github.com:taniarascia/taniarascia.com",
+  "author": "Dimas Setiawan <dimasanand27@gmail.com>",
+  "repository": "git@github.com:pegan3/dimasv1",
   "dependencies": {
     "eslint-utils": "^1.4.1",
     "gatsby": "^2.13.13",
@@ -56,7 +56,7 @@
     "write-good": "^1.0.1"
   },
   "keywords": [
-    "tania rascia",
+    "dimas setiawan",
     "development",
     "dev",
     "tutorials",

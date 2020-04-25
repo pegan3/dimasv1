@@ -39,12 +39,12 @@ export default class Index extends Component {
                   data-size="large"
                   data-show-count="true"
                 >
-                  taniarascia
+                  pegan3
                 </GitHubButton>
               </div>
             </div>
             <div className="newsletter-section">
-              <img src={tania} className="newsletter-avatar" alt="Tania" />
+              <img src={tania} className="newsletter-avatar" alt="Dimas" />
               <div>
                 <h3>Email Newsletter</h3>
                 <p>

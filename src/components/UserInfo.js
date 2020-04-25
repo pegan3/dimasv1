@@ -10,19 +10,19 @@ export default class UserInfo extends Component {
         <div className="container note-container">
           <div className="flex-author">
             <div className="flex-avatar">
-              <img className="avatar" src={tania} alt="Tania Rascia" />
+              <img className="avatar" src={tania} alt="Dimas Setiawan" />
             </div>
             <div>
               <h3>Author</h3>
               <p>
-                Hey, I’m Tania, a full stack software engineer. I write about what I know to help
-                viewers like you. My site has <strong>no ads, sponsors, or bullshit.</strong> If you
-                enjoy my content, please consider supporting what I do!
+                Hello, perkanalkan saya Dimas, saya adalah orang Gabut. Saya menulis ini untuk menghilangkan
+                kegabutan saya selama lockdown. Web ini dibuat tanpa <strong>ads, sponsors, or bullshit.</strong>
+                Jika kamu suka dengan konten saya, mohon dukung saya gabut terus!
               </p>
 
               <div className="flex">
                 <a
-                  href="https://ko-fi.com/taniarascia"
+                  href=""
                   className="donate-button"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -32,7 +32,7 @@ export default class UserInfo extends Component {
                 </a>
                 <a
                   className="patreon-button"
-                  href="https://www.patreon.com/taniarascia"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >

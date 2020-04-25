@@ -28,18 +28,14 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hey, I'm Tania 👋`} </h1>
+              <h1>{`Hello, perkanalakan saya Orang Gabut👋`} </h1>
               <p>
-                {`I'm a full stack software developer creating `}
-                <a href="https://github.com/taniarascia" target="_blank" rel="noopener noreferrer">
-                  open source
-                </a>{' '}
-                projects and <Link to="/blog">writing</Link> about modern JavaScript, Node.js, and
-                development.
+                {`Saya melalui web ini akan membagikan sebuah kisah`}
+                .Kisah yang akan saya bagikan disini adalah kisah kegabutan saya.
               </p>
               <div className="social-buttons">
                 <GitHubButton
-                  href="https://github.com/taniarascia"
+                  href="https://github.com/pegan3"
                   data-size="large"
                   data-show-count="true"
                 >
@@ -52,10 +48,10 @@ export default class Index extends Component {
               <div>
                 <h3>Email Newsletter</h3>
                 <p>
-                  I write tutorials. Get an update when something new comes out by signing up below!
+                  Saya belum punya newsletter!
                 </p>
-                <a className="button" href="https://taniarascia.substack.com">
-                  Subscribe
+                <a className="button" href="">
+                  Jangan di Subscribe
                 </a>
               </div>
             </div>
@@ -65,7 +61,7 @@ export default class Index extends Component {
         <div className="container front-page">
           <section className="section">
             <h2>
-              Latest Articles
+              Portofilio
               <Link to="/blog" className="view-all">
                 View all
               </Link>

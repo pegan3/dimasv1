@@ -36,11 +36,16 @@ export default class Index extends Component {
                 
               </p>
               <div className="container front-page">
-                  <Link to="/me" className="view-all">
-                  Selengkapnya tentang Dimas Setiawan
-                  </Link>
+              <section className="section">
+              
+              <Link to="/blog" className="view-all">
+                Selengkapnya tentang Dimas
+              </Link>
+
+              </section>
               </div>
             </div>
+            
             <div className="newsletter-section">
               <img src={tania} className="newsletter-avatar" alt="Dimas" />
             <div>

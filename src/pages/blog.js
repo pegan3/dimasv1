@@ -7,19 +7,6 @@ import PostListing from '../components/PostListing'
 import SEO from '../components/SEO'
 import config from '../../data/SiteConfig'
 
-import docker from '../../content/thumbnails/docker.png'
-import node from '../../content/thumbnails/node.png'
-import redux from '../../content/thumbnails/redux.png'
-import react from '../../content/thumbnails/react.png'
-import vue from '../../content/thumbnails/vue.png'
-import bash from '../../content/thumbnails/bash.png'
-import css from '../../content/thumbnails/css.png'
-import mvc from '../../content/thumbnails/triangle.png'
-import terminal from '../../content/thumbnails/terminal.png'
-import sql from '../../content/thumbnails/sql.png'
-import cookie from '../../content/thumbnails/cookie.png'
-import json from '../../content/thumbnails/json.png'
-
 export default class BlogPage extends Component {
   state = {
     searchTerm: '',

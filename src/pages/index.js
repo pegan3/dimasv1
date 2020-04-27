@@ -28,24 +28,24 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h1>{`Hello, perkanalakan saya Orang Gabut👋`} </h1>
+              <h2>{`Hello, saya Dimas👋`} </h2>
               <p>
-                {`Saya melalui web ini akan membagikan sebuah kisah`}
-                .Kisah yang akan saya bagikan disini adalah kisah kegabutan saya.
+
+                {`Saya melalui web ini akan membagikan sebuah kisah, 
+                Kisah yang akan saya bagikan disini adalah kisah kegabutan saya.`}
+                
               </p>
-              <div className="social-buttons">
-                <GitHubButton
-                  href="https://github.com/pegan3"
-                  data-size="large"
-                  data-show-count="true"
-                >
-                  pegan3
-                </GitHubButton>
+              <div className="view-all">
+
+              <Link to="/blog" className="view-all">
+                View all
+              </Link>
+              
               </div>
             </div>
             <div className="newsletter-section">
               <img src={tania} className="newsletter-avatar" alt="Dimas" />
-              <div>
+            <div>
                 <h3>Email Newsletter</h3>
                 <p>
                   Saya belum punya newsletter!
@@ -61,7 +61,7 @@ export default class Index extends Component {
         <div className="container front-page">
           <section className="section">
             <h2>
-              Portofilio
+              Portofolio
               <Link to="/blog" className="view-all">
                 View all
               </Link>

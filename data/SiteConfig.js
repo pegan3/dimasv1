@@ -11,7 +11,7 @@ const config = {
   siteDescription:
     'Catatan seorang Dimas.',
   siteRss: '/rss.xml',
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'ua-164491361-1',
   postDefaultCategoryID: 'Catatan Dimas,Dimas Setiawan,Portofilio Dimas,Tech,Dimas Ananda Setiawan,Catatan Dimas Setiawan',
   newsletter: '',
   newsletterEmbed: '',
@@ -32,8 +32,8 @@ const config = {
       link: '/newsletter/',
     },
     {
-      name: 'Portofilio',
-      link: '/me/',
+      name: 'Portofolio',
+      link: '/404/',
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.

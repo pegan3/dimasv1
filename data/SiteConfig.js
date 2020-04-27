@@ -31,10 +31,6 @@ const config = {
       name: 'Portofolio',
       link: '/404/',
     },
-    {
-      name: 'Newsletter',
-      link: '/newsletter/',
-    },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff',

@@ -35,15 +35,18 @@ export default class Index extends Component {
                 Kisah yang akan saya bagikan disini adalah kisah kegabutan saya.`}
                 
               </p>
-              <div className="container front-page">
-              <section className="section">
-              
-              <Link to="/blog" className="view-all">
-                Selengkapnya tentang Dimas
-              </Link>
-
-              </section>
-              </div>
+              <p>
+                <div className="container front-page">
+                  <section className="section"> 
+                    <h2>
+                    Portofolio
+                    <Link to="/me" className="view-all">
+                    Selengkapnya tentang Dimas
+                    </Link>
+                    </h2>
+                  </section>
+                </div>
+              </p>
             </div>
             
             <div className="newsletter-section">

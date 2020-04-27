@@ -39,7 +39,6 @@ export default class Index extends Component {
                 <div className="container front-page">
                   <section className="section"> 
                     <h2>
-                    Portofolio
                     <Link to="/me" className="view-all">
                     Selengkapnya tentang Dimas
                     </Link>

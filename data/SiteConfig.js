@@ -12,11 +12,11 @@ const config = {
     'Catatan seorang Dimas.',
   siteRss: 'https://dimas.club/rss.xml',
   googleAnalyticsID: 'ua-164491361-1',
-  postDefaultCategoryID: 'Catatan Dimas,Dimas Setiawan,Portofilio Dimas,Tech,Dimas Ananda Setiawan,Catatan Dimas Setiawan',
+  postDefaultCategoryID: 'Catatan harian dimas,Catatan Dimas,Dimas Setiawan,Portofilio Dimas,Tech,Dimas Ananda Setiawan,Catatan Dimas Setiawan',
   newsletter: '',
   newsletterEmbed: '',
   userName: 'Dimas',
-  userEmail: 'dimas.anand27@gmail.com',
+  userEmail: 'mail@dimas.club',
   userTwitter: 'dimasanand27',
   menuLinks: [
     {

@@ -35,15 +35,10 @@ export default class Index extends Component {
                 Kisah yang akan saya bagikan disini adalah kisah kegabutan saya.`}
                 
               </p>
-              <div className="view-all">
-                <section className="section">
-
+              <div className="container front-page">
                   <Link to="/me" className="view-all">
                   Selengkapnya tentang Dimas Setiawan
                   </Link>
-
-                <PostListing simple postEdges={latestPostEdges} />
-                </section>
               </div>
             </div>
             <div className="newsletter-section">

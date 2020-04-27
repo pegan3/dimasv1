@@ -1,5 +1,5 @@
 ---
-title: About me
+title: Tentang Dimas
 slug: me
 template: page
 ---

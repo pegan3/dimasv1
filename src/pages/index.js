@@ -28,7 +28,7 @@ export default class Index extends Component {
         <div className="container">
           <div className="lead">
             <div className="elevator">
-              <h2>{`Hello, saya Dimas👋`} </h2>
+              <h2>{`Hello, saya Dimas✌️`} </h2>
               <p>
 
                 {`Saya melalui web ini akan membagikan sebuah kisah, 
@@ -36,11 +36,14 @@ export default class Index extends Component {
                 
               </p>
               <div className="view-all">
+                <section className="section">
 
-              <Link to="/blog" className="view-all">
-                View all
-              </Link>
-              
+                  <Link to="/me" className="view-all">
+                  Selengkapnya tentang Dimas Setiawan
+                  </Link>
+
+                <PostListing simple postEdges={latestPostEdges} />
+                </section>
               </div>
             </div>
             <div className="newsletter-section">

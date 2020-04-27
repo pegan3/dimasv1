@@ -10,7 +10,7 @@ const config = {
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
     'Catatan seorang Dimas.',
-  siteRss: '/rss.xml',
+  siteRss: 'https://dimas.club/rss.xml',
   googleAnalyticsID: 'ua-164491361-1',
   postDefaultCategoryID: 'Catatan Dimas,Dimas Setiawan,Portofilio Dimas,Tech,Dimas Ananda Setiawan,Catatan Dimas Setiawan',
   newsletter: '',
@@ -28,12 +28,12 @@ const config = {
       link: '/blog/',
     },
     {
-      name: 'Newsletter',
-      link: '/newsletter/',
-    },
-    {
       name: 'Portofolio',
       link: '/404/',
+    },
+    {
+      name: 'Newsletter',
+      link: '/newsletter/',
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.

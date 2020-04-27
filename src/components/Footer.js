@@ -23,7 +23,7 @@ export default class Footer extends Component {
               alt="Facebook"
             />
           </a>
-          <a href="https://instagram.com/dmasetiawan27" title="instagram/dmasetiawan23">
+          <a href="https://instagram.com/dmasetiawan23" title="instagram/dmasetiawan23">
             <img
               src={instagram}
               target="_blank"

@@ -1,18 +1,18 @@
 const config = {
-  siteTitle: 'Catatan Dimas',
-  siteTitleShort: 'Catatan Dimas',
-  siteTitleAlt: 'Catatan Dimas',
-  siteLogo: '/logos/logo-1024.png',
+  siteTitle: 'Catatan Dimas Setiawan',
+  siteTitleShort: 'Catatan Dimas Setiawan',
+  siteTitleAlt: 'Catatan Dimas Setiawan',
+  siteLogo: '/logos/logo1024.png',
   siteUrl: 'https://dimas.club',
   repo: 'https://github.com/pegan3/dimasv1',
   pathPrefix: '',
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'Dimas Setiawan adalah seseorang yang gabut.',
+    'Catatan seorang Dimas.',
   siteRss: '/rss.xml',
   googleAnalyticsID: '',
-  postDefaultCategoryID: 'Tech',
+  postDefaultCategoryID: 'Catatan Dimas,Dimas Setiawan,Portofilio Dimas,Tech,Dimas Ananda Setiawan,Catatan Dimas Setiawan',
   newsletter: '',
   newsletterEmbed: '',
   userName: 'Dimas',
@@ -30,6 +30,10 @@ const config = {
     {
       name: 'Newsletter',
       link: '/newsletter/',
+    },
+    {
+      name: 'Portofilio',
+      link: '/me/',
     },
   ],
   themeColor: '#3F80FF', // Used for setting manifest and progress theme colors.
